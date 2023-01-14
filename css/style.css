@@ -1,0 +1,160 @@
+/* General Styling */
+
+body {
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+h1 {
+   text-align: center;
+   margin-top: 5px;
+   margin-left: 5px;
+   /* margin-bottom: 0px; */
+   font-size: 30pt;
+   font-family: 'Roboto', sans-serif;
+   /* border-bottom: 0.5px solid #424242; */
+}
+
+h2 {
+    text-align: center;
+    margin-top: -30px;
+    /* margin-bottom: 0px; */
+    font-size: 11pt;
+    font-family: 'Roboto', sans-serif;
+    /* border-bottom: 0.5px solid #424242; */
+ }
+ 
+/* h2 {
+    padding-top: 10px;
+} */
+
+a {
+    text-decoration: none;
+    color: #363636;
+}
+
+a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.separator {
+    margin-top: 0;
+}
+
+#speciesimg {
+    width: 10%;
+}
+
+/* Island Selection for Pie Chart Styling */
+
+.overviewbt {
+    width: 100%;
+    height: 180px;
+    border: none;
+    background-color:#47a2d6;
+} 
+
+.islandselectmenu {
+    height: auto;
+    margin: 0 auto;
+    padding: 30px;
+    position: relative;
+}
+
+.arcoverview {
+    display: none;
+}
+
+.islandselect {
+    background-color: #47a2d6;
+    z-index: 5;
+}
+
+.figs {
+    height: 30%;
+    width:30%;
+}
+
+figcaption {
+    color: #ffffff;
+}
+
+.figs:hover {
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.dreamhover:hover {
+    background-color: #ffea00;
+}
+
+.torgersenhover:hover {
+    background-color: #FC766AFF;
+}
+
+.biscoehover:hover {
+    background-color: #184A45FF;
+}
+
+#Whole {
+    border-radius: 48%;
+}
+
+/* Scatterplot Tooltip */
+
+#sc-tooltip {
+    display: none;
+}
+
+/* Parallel Coordinates Menu */
+
+.pcselector {
+    transform: translateY(-40px);
+    font-size: 12px;
+}
+
+/* Histogram Styling */
+
+.histcontainer {
+    width: 70%;
+    float: left;
+}
+
+.qh:hover {
+    cursor: pointer;
+}
+
+
+#quantitativelegend {
+    padding-top: 200px;
+    display:inline;
+}
+
+h5 {
+    text-align: center;
+}
+
+h6 {
+    font-weight:normal;
+}
+
+.statslabels {
+    float: left;
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 200px;
+    transform: translateX(-100px);
+}
+
+.statsdiv {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.statsdivalign {
+    text-align: left;
+    padding-left: 30px;
+}
