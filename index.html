@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+</html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <script src="./bootstrap/popper.js"></script>
+  <script type="text/javascript" charset="UTF-8"></script>
+  <script src="./js/main.js"></script>
+  <!--<script src="./js/scatterplot.js"></script>-->
+  <script src="./js/scatterplot_class.js"></script>
+  <!--<script src="./js/circlepacking.js"></script>-->
+  <script src="./js/donnut_class.js"></script>
+  <script src="./js/circlepacking_class.js"></script>
+  <script src="./bootstrap/d3.v7.min.js"></script>
+  <link href="./bootstrap/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="icon" href="./imgs/logo.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>YouTube Trending Videos [VI-G18]</title>
+</head>
+
+<body onload="init()">
+  <h1><a href="#" onclick="window.location.reload(true);">YouTube Trending Videos</a></h1>
+  <h2>
+    <div class="row">
+      <div style="width: 20%; float:left">
+        <div >
+          <svg id="vi1"></svg>
+
+        </div>
+      </div>
+      <div style="width: 40%" >
+        <!-- style="background: pink"-->
+        <svg id="vi2"></svg>
+      </div>
+      <div style="width: 40%">
+        <!-- style="background: lightgreen"-->
+        <!--div class="row"-->
+          <div class="row">
+            <div style="width: 90%; float:left">
+              <svg id="vi4"></svg>
+            </div>
+
+            <div style="width: 10%; float:right">
+              <div style="vertical-align: bottom; padding: 0% 0% 0% 0%;">
+                <p style="text-align: center; padding: 0% 0% 0% 0%;  
+                position: relative;
+                top: 80px;
+              left:-10px;
+              width: 100%;">+subs</p>
+              </div>
+              <div style="
+              position:relative;
+              top: 70px;
+            vertical-align: middle;
+            width:10px;
+            height:300px;
+            border:1px solid #000;
+            background-image: linear-gradient(to top, #ffb3b3, #800000);
+            padding: 0% 0% 0% 0%;
+            ">
+              </div>
+              <div style="vertical-align: top; padding: 0% 0% 0% 0%;
+              position:relative;
+              top: 70px;
+              left:-10px;">
+
+
+                <p style="text-align: center; padding: 0% 0% 0% 0%;">-subs</p>
+              </div>
+
+            </div>
+          </div>
+        <!--/div-->
+      </div>
+  </h2>
+</body>
+
+</html>
