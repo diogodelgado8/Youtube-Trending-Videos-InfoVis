@@ -1,5 +1,6 @@
 # Youtube-Trending-Videos-InfoVis
-An information visualization project using d3.js, offering different views on datasets regarding YouTube trending videos. 
+An information visualization project using d3.js, offering different views on datasets regarding YouTube trending videos.
+Project developed with my colleagues Mariana Lima and Miguel Malheiro.
 
 Run the index.html file using VSCode Live Server or equivalent. 
 Use fullscreen for a better visualization experience.
