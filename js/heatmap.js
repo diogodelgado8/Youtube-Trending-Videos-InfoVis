@@ -1,0 +1,3 @@
+function createHeatMap(data,id) {
+    
+}
